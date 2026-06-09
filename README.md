@@ -1,107 +1,182 @@
 # Copiloto de Vendas com IA: Inspiração FYS
 
-Este repositório é um material de apoio para o Desafio de Projeto Final **Copiloto de Vendas com IA para Atendimento ao Cliente**.
+> Um repo pequeno para uma ideia grande: usar uma live como base de conhecimento para criar soluções de IA aplicadas a vendas. Sem complicar. Sem reunião de 3 horas que podia ser um prompt.
 
-A ideia aqui não é entregar uma solução pronta, nem limitar o seu projeto a um único caminho. O objetivo é mostrar como uma live, entrevista ou conversa com especialistas pode virar uma **base de conhecimento** para criar uma solução de IA mais contextualizada.
+Este repositório é um apoio para o Desafio de Projeto Final **Copiloto de Vendas com IA para Atendimento ao Cliente**.
 
-Neste caso, usamos como inspiração a live **FYS: Por Dentro da Marca, Desafios e Ideias para o Projeto Final**, com informações sobre a **FYS**, marca de refrigerantes do grupo **HEINEKEN**.
+A ideia aqui **não é entregar uma solução pronta** e nem dizer que todo mundo precisa fazer o mesmo projeto. A proposta é usar a **FYS**, marca de refrigerantes do grupo **HEINEKEN**, como inspiração para criar soluções diferentes a partir de um contexto real apresentado em live.
 
-Você pode usar este repositório para criar um chatbot, copiloto, agente, simulador, análise simples ou qualquer outra solução voltada a vendas e atendimento ao cliente.
+A FYS tem uma comunicação mais leve, bem-humorada e um pouco ácida. Ela não tenta parecer perfeita, não força pose de marca número 1 e brinca com a própria posição no mercado. Esse tom pode inspirar soluções mais criativas, humanas e menos robóticas.
 
 ---
 
-## Live de Referência
+## A Sacada do Projeto
 
-A live usada como base está disponível na plataforma da DIO:
+Normalmente, uma IA responde melhor quando tem contexto.
 
-https://web.dio.me/lives/fys-por-dentro-da-marca-desafios-e-ideias-para-o-projeto-final?back=/track/heineken-inteligencia-artificial-aplicada-vendas
+Neste repo, o contexto vem de uma live:
 
-A transcrição está em:
+- Pessoas da FYS explicaram a marca;
+- Apresentaram desafios reais de vendas;
+- Comentaram sobre canais, consumidores e pontos de venda;
+- Trouxeram o tom de voz da marca;
+- E, de quebra, deram várias ideias que podem virar projeto.
+
+A transcrição dessa live está em:
 
 ```text
 knowledge/transcricao-live-fys.txt
 ```
 
-Use esse arquivo como fonte de contexto para entender a marca, os desafios apresentados e possíveis ideias de projeto.
+Ou seja: a live virou uma **base de conhecimento**.
+
+E a partir dela você pode criar um chatbot, copiloto, agente, simulador, análise simples, gerador de mensagens ou qualquer outra solução com IA voltada a vendas e atendimento.
 
 ---
 
-## O Que Você Pode Criar
+## Live de Referência
 
-Você pode escolher qualquer recorte simples ligado a vendas e atendimento. Alguns exemplos:
+Assista à live aqui:
 
-- Um chatbot que responde dúvidas sobre um produto ou marca;
-- Um copiloto que sugere argumentos de venda;
-- Um agente que ajuda a lidar com objeções;
-- Um simulador de conversa entre vendedor e cliente;
-- Uma análise simples para priorizar clientes, leads ou pontos de venda;
-- Um gerador de mensagens para WhatsApp, e-mail ou abordagem presencial.
+https://web.dio.me/lives/fys-por-dentro-da-marca-desafios-e-ideias-para-o-projeto-final?back=/track/heineken-inteligencia-artificial-aplicada-vendas
 
-O mais importante é explicar bem o problema, mostrar como a IA ajuda e apresentar um exemplo de uso.
+Ela é a principal fonte de contexto deste repositório.
 
 ---
 
-## Desafios da FYS Que Podem Inspirar Projetos
+## Escolha Seu Desafio
 
-Durante a live, alguns desafios apareceram como boas oportunidades para soluções com IA:
+A FYS trouxe vários desafios interessantes. Você não precisa resolver todos. Escolha um recorte simples e faça bem feito.
 
-1. **Conhecimento da marca**  
-   Ajudar mais pessoas a conhecerem a FYS e entenderem que ela faz parte do grupo HEINEKEN.
+### 1. Quem é FYS mesmo?
 
-2. **Experimentação do produto**  
-   Criar ideias para incentivar o primeiro teste do produto.
+Muita gente ainda não conhece a marca ou não sabe que ela faz parte do grupo **HEINEKEN**.
 
-3. **Visibilidade e disponibilidade**  
-   Pensar em formas de fazer a marca ser mais vista, lembrada e encontrada nos pontos de venda.
+Ideias de projeto:
 
-4. **Padarias como canal de venda**  
-   Explorar padarias como um canal com potencial para bebidas de consumo individual.
+- Chatbot que apresenta a marca de forma simples;
+- Agente que responde dúvidas sobre FYS;
+- Gerador de mensagens para explicar a marca sem parecer propaganda chata.
 
-5. **Apoio à força de vendas**  
-   Ajudar vendedores ou times comerciais com argumentos, próximos passos e priorização de oportunidades.
+---
 
-6. **Tom de voz da marca**  
-   Usar uma comunicação mais leve, bem-humorada e próxima do público.
+### 2. Me dá uma chance aí
 
-7. **Uso de dados públicos**  
-   Combinar a transcrição da live com informações públicas sobre regiões, consumo, comércios ou pontos de venda.
+A marca quer que mais pessoas experimentem o produto. Não precisa convencer o mundo inteiro. Começa pelo primeiro gole.
 
-Você não precisa resolver todos esses pontos. Escolha apenas um e desenvolva uma ideia simples.
+Ideias de projeto:
+
+- Copiloto que sugere argumentos para incentivar experimentação;
+- Simulador de abordagem para oferecer FYS em uma padaria;
+- Gerador de campanhas simples para degustação ou primeira compra.
+
+---
+
+### 3. Cadê a FYS na padaria?
+
+Padarias são um canal importante, mas nem sempre recebem atenção da força de vendas tradicional.
+
+Ideias de projeto:
+
+- Agente para priorizar padarias com maior potencial;
+- Checklist inteligente para avaliar um ponto de venda;
+- Copiloto que sugere próximos passos para ativar uma padaria.
+
+---
+
+### 4. O vendedor não tem oito braços
+
+A força de vendas precisa priorizar onde atuar. A IA pode ajudar a organizar oportunidades e sugerir abordagens.
+
+Ideias de projeto:
+
+- Copiloto para preparar argumentos de venda;
+- Gerador de mensagens para WhatsApp comercial;
+- Agente que sugere abordagem com base no perfil do cliente.
+
+---
+
+### 5. Visibilidade: porque produto escondido não performa milagre
+
+Se o consumidor não vê, não lembra. Se não lembra, não pede. Simples assim.
+
+Ideias de projeto:
+
+- IA que sugere ações de visibilidade no ponto de venda;
+- Checklist de exposição para balcão, geladeira ou cardápio;
+- Gerador de ideias de ativação com baixo custo.
+
+---
+
+### 6. Objeções de balcão
+
+Toda venda tem resistência: preço, marca desconhecida, hábito do cliente, espaço na geladeira, giro do produto.
+
+Ideias de projeto:
+
+- Agente que responde objeções comuns;
+- Simulador de conversa entre vendedor e dono de padaria;
+- Base de perguntas e respostas para treinamento comercial.
+
+---
+
+### 7. O tom FYS sem virar tiozão do pavê
+
+A FYS usa humor, leveza e autoironia. Mas existe uma linha entre ser divertido e ser forçado.
+
+Ideias de projeto:
+
+- Assistente para revisar mensagens no tom da marca;
+- Gerador de respostas comerciais com humor leve;
+- Comparador entre mensagem formal, informal e “modo FYS”.
+
+---
+
+### 8. Dados públicos também jogam
+
+Além da transcrição da live, você pode usar dados públicos sobre regiões, comércios, consumo ou comportamento do público.
+
+Ideias de projeto:
+
+- Análise simples para priorizar bairros ou regiões;
+- Ranking de oportunidades por tipo de ponto de venda;
+- Agente que combina contexto da live com dados públicos.
 
 ---
 
 ## Como Usar o DIO Agent
 
-Você pode usar o **DIO Agent** como apoio para entender este repositório e desenvolver sua entrega final:
+Você pode usar o **DIO Agent** como apoio para pensar, organizar e revisar seu projeto final:
 
 https://github.com/digitalinnovationone/dio-agent
 
-Na prática:
+Neste repo:
 
-- O **DIO Agent** ajuda você a pensar, revisar e melhorar o projeto;
-- Este repositório da **FYS** oferece o contexto da live e os desafios de negócio;
-- O arquivo `AGENTS.md` orienta um agente específico para trabalhar com esse contexto;
-- O arquivo `CLAUDE.md` funciona como um alias para o `AGENTS.md`.
+- O `README.md` explica o contexto;
+- O `AGENTS.md` orienta o comportamento do agente;
+- O `CLAUDE.md` funciona como alias para o `AGENTS.md`;
+- A pasta `knowledge/` guarda a transcrição da live.
 
-### Prompt Sugerido
+### Prompt Para Começar
 
-Copie este prompt no DIO Agent ou em outro agente de IA:
+Copie e cole este prompt no DIO Agent:
 
 ```text
 Leia o README deste repositório e a transcrição em knowledge/transcricao-live-fys.txt.
 
-Depois, me ajude a criar uma ideia simples para o Desafio de Projeto Final "Copiloto de Vendas com IA para Atendimento ao Cliente".
+Depois, me ajude a escolher uma ideia simples para o Desafio de Projeto Final "Copiloto de Vendas com IA para Atendimento ao Cliente".
 
-Quero uma solução inspirada nos desafios da FYS, mas aberta o suficiente para ser criativa e fácil de explicar.
+Quero uma solução inspirada nos desafios da FYS, com um tom criativo, simples e fácil de explicar.
 
 Me entregue:
 1. Uma ideia de projeto;
-2. Quem usaria a solução;
-3. Qual problema ela resolve;
-4. Como a IA ajudaria;
-5. Qual parte da live pode servir como base de conhecimento;
+2. Qual desafio da FYS ela explora;
+3. Quem usaria a solução;
+4. Qual problema ela resolve;
+5. Como a IA ajudaria;
 6. Um exemplo de uso;
-7. O que eu poderia colocar no README do meu projeto final.
+7. O que colocar no README da entrega final;
+8. Uma versão mais simples da ideia, caso eu queira algo bem básico.
 ```
 
 ---
@@ -117,27 +192,24 @@ copiloto-vendas-ia-atendimento-cliente-fys/
     └── transcricao-live-fys.txt
 ```
 
-A estrutura é mínima de propósito:
-
-- `README.md`: explica o contexto e como usar o material;
-- `AGENTS.md`: define o comportamento esperado do agente;
-- `CLAUDE.md`: alias para o `AGENTS.md`;
-- `knowledge/transcricao-live-fys.txt`: transcrição da live usada como base de conhecimento.
+A estrutura é mínima de propósito. A ideia é focar no projeto, não em criar pasta para guardar pasta.
 
 ---
 
-## O Que Entregar no Seu Projeto Final
+## O Que Entregar no Projeto Final
 
-No seu próprio repositório, explique de forma simples:
+No seu próprio repositório, explique:
 
-- Qual tema você escolheu;
-- Quem é o usuário principal da solução;
-- Qual problema de vendas ou atendimento ela resolve;
+- Qual desafio você escolheu;
+- Quem usaria sua solução;
+- Qual problema ela resolve;
 - Como a IA ajuda;
-- Quais informações foram usadas como base de conhecimento;
-- Um exemplo de conversa, resposta ou análise gerada;
+- Qual base de conhecimento foi usada;
+- Um exemplo de conversa, resposta ou análise;
 - Possíveis melhorias futuras.
 
-Você não precisa criar uma aplicação completa. O mais importante é demonstrar que entendeu o problema, organizou bem a solução e usou IA de forma útil.
+Você não precisa criar uma aplicação completa. Pode entregar um protótipo, prompt, agente, simulação ou documentação bem organizada.
 
-Bons estudos e bom projeto 🚀
+O importante é mostrar que você entendeu o problema e usou IA para propor algo útil.
+
+Bons estudos e bora tirar a FYS do modo “quem?” para o modo “ah, essa eu conheço” 🚀
