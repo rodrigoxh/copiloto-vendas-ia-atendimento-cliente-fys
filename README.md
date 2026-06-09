@@ -1,10 +1,10 @@
 # 🥤 Copiloto de Vendas com IA: Inspiração FYS
 
-> Um repo pequeno para uma ideia grande: usar uma live como base de conhecimento para criar soluções de IA aplicadas a vendas. Sem complicar. Sem reunião de 3 horas que podia ser um prompt.
+> Um repo pequeno para uma ideia grande: usar uma live como base de conhecimento para pensar soluções de IA aplicadas a vendas. Sem complicar. Sem reunião de 3 horas que podia ser um prompt.
 
-Este repositório é um apoio para o Desafio de Projeto Final **Copiloto de Vendas com IA para Atendimento ao Cliente**.
+Este repositório apoia o Desafio de Projeto Final **Copiloto de Vendas com IA para Atendimento ao Cliente**.
 
-A ideia **não é entregar uma solução pronta** e nem limitar o projeto final a um único caminho. A proposta é usar a **FYS**, marca de refrigerantes do grupo **HEINEKEN**, como inspiração para criar soluções diferentes a partir de um contexto real apresentado na live [FYS: Por Dentro da Marca, Desafios e Ideias para o Projeto Final](https://web.dio.me/lives/fys-por-dentro-da-marca-desafios-e-ideias-para-o-projeto-final?back=/track/heineken-inteligencia-artificial-aplicada-vendas).
+Ele **não entrega uma solução pronta** e também **não substitui o DIO Agent**. A proposta é oferecer um contexto real da **FYS**, marca de refrigerantes do grupo **HEINEKEN**, para inspirar diferentes projetos finais a partir da live [FYS: Por Dentro da Marca, Desafios e Ideias para o Projeto Final](https://web.dio.me/lives/fys-por-dentro-da-marca-desafios-e-ideias-para-o-projeto-final?back=/track/heineken-inteligencia-artificial-aplicada-vendas).
 
 A FYS tem uma comunicação leve, bem-humorada e um pouco ácida. Ela não tenta parecer perfeita, não força pose de marca número 1 e brinca com a própria posição no mercado. Esse tom pode inspirar projetos mais criativos, humanos e menos robóticos.
 
@@ -12,9 +12,9 @@ A FYS tem uma comunicação leve, bem-humorada e um pouco ácida. Ela não tenta
 
 ## 💡 A Sacada
 
-Normalmente, uma IA responde melhor quando tem contexto.
+Uma IA responde melhor quando tem contexto.
 
-Neste repo, o contexto vem de uma live. Pessoas da FYS explicaram a marca, comentaram desafios de vendas, falaram sobre canais, consumidores, pontos de venda e deram várias pistas que podem virar projeto.
+Aqui, o contexto vem de uma live. Pessoas da FYS explicaram a marca, comentaram desafios de vendas, falaram sobre canais, consumidores, pontos de venda e deram várias pistas que podem virar projeto.
 
 A transcrição da live está em:
 
@@ -114,31 +114,27 @@ Ideias:
 
 ---
 
-## 🤖 Usando o DIO Agent
+## 🤖 Usando com o DIO Agent
 
-Você pode usar o [DIO Agent](https://github.com/digitalinnovationone/dio-agent) como apoio para pensar, organizar e revisar seu projeto final.
+Você pode usar o [DIO Agent](https://github.com/digitalinnovationone/dio-agent) como mentor para pensar, organizar e revisar seu projeto final.
 
-Neste repo:
-
-- O `README.md` explica o contexto;
-- O `AGENTS.md` orienta o comportamento do agente;
-- O `CLAUDE.md` funciona como alias para o `AGENTS.md`;
-- A pasta `knowledge/` guarda a transcrição da live.
+Este repo entra como **contexto de apoio**. O DIO Agent analisa o material, entende os desafios da FYS e ajuda você a escolher um recorte para criar sua própria entrega.
 
 ### Prompt para começar
 
 Copie e cole este prompt no DIO Agent:
 
 ```text
-Oi, DIO Agent! Meu nome é...
-Estou fazendo o desafio "Copiloto de Vendas com IA para Atendimento ao Cliente"
+Oi, DIO Agent! Estou fazendo o desafio "Copiloto de Vendas com IA para Atendimento ao Cliente"
 e quero usar este repositório da FYS como inspiração:
 
 https://github.com/digitalinnovationone/copiloto-vendas-ia-atendimento-cliente-fys
 
 Pode analisar esse repo e me ajudar a escolher uma ideia simples para o meu projeto?
+
 Quero entender qual desafio posso explorar, como a IA poderia ajudar
 e o que eu posso colocar no README da minha entrega.
+
 Me guie passo a passo, sem fazer o projeto inteiro por mim.
 ```
 
@@ -156,6 +152,11 @@ copiloto-vendas-ia-atendimento-cliente-fys/
 ```
 
 A estrutura é mínima de propósito. A ideia é focar no projeto, não em criar pasta para guardar pasta.
+
+- O `README.md` explica o contexto e sugere desafios;
+- O `AGENTS.md` orienta agentes de IA a usarem este repo como contexto;
+- O `CLAUDE.md` funciona como alias para o `AGENTS.md`;
+- A pasta `knowledge/` guarda a transcrição da live.
 
 ---
 
